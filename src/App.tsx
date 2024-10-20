@@ -1,23 +1,23 @@
 /** @format */
-import {ConfigProvider} from 'antd';
-import routes from './routes';
-import BasicLayout from './components/BasicLayout';
+import { ConfigProvider } from "antd";
+import AppRoutes from "./routes";
 
 const App: React.FC = () => (
   <ConfigProvider
     theme={{
       token: {
-        colorPrimary: '#a0d911',
-        colorInfo: '#a0d911',
+        colorPrimary: "#52c41a",
+        colorInfo: "#52c41a",
       },
       components: {
         Layout: {
-          bodyBg: '#ffffff',
-          siderBg: '#ffffff',
+          bodyBg: "#ffffff",
+          siderBg: "#ffffff",
         },
       },
-    }}>
-    <BasicLayout>{routes}</BasicLayout>
+    }}
+  >
+    <AppRoutes />
   </ConfigProvider>
 );
 export default App;

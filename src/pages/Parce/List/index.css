@@ -1,0 +1,14 @@
+.parce-list {
+  .ant-statistic-title {
+    text-align: end;
+    color: #ffffff;
+  }
+}
+
+.parce-list .parce-list-header {
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #52c41a;
+  margin: 16px 0;
+}

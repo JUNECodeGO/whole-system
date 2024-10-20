@@ -1,0 +1,14 @@
+.data-page {
+   
+}
+.data-page .top-left {
+    border-radius: 8px;
+    background-color: #F0F2F5;
+    padding: 8px;
+    flex-basis: 75%;
+        }
+     .data-page .top-left .top {
+        border-radius: 8px;
+    background-color: #ffffff;
+    padding: 8px;
+     }   
